@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Sidebar Teste</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img class="logo-img" src="https://www.safetyandquality.gov.au/sites/default/files/2020-03/atlas_person-icon-500x500px.png" alt="Foto de usuario">
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">home</i>
+                    <span>Home</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">tag</i>
+                    <span>Explorar</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">email</i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">person</i>
+                    <span>Profile</span>
+                </span>
+            </button>
+        </nav>
+    </aside>
+    <!--Mobile-->
+    <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined">menu</i>
+        <span> Menu</span>
+    </button>
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="button-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">close</i>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="material-symbols-outlined">home</i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="material-symbols-outlined">tag</i>
+                <span  class="mobile-text">Explorar</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="material-symbols-outlined">email</i>
+                <span  class="mobile-text">Mensagens</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="material-symbols-outlined">person</i>
+                <span  class="mobile-text">Profile</span>
+            </span>
+        </button>
+    </nav>
+
+    <main class="main">
+        <h1>Bem vindo ao site</h1>
+        <span>Pedro vieira</span>
+    </main>
+    <script src="scrpits.js"></script>
+</body>
+</html>
